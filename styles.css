@@ -65,7 +65,7 @@ input {
     border-top: 50em;
 }
 
-input[type="email"], input[type="password"]{
+input[type="email"], input[type="password"], input[type="text"]{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white; 
@@ -82,7 +82,8 @@ input[type="email"], input[type="password"]{
     margin-bottom: 3em;
 }
 
-input[type="submit"]{
+
+input[type="submit"], button {
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: large;
@@ -107,4 +108,16 @@ fieldset{
     color: white;
     padding-top: 9em;  
     border: 0;
+}
+
+button{
+    margin-top: 7em;
+}
+
+button:last-of-type {
+    margin-top: 4em;
+}
+
+.t10 {
+    margin-top: -75px;
 }
